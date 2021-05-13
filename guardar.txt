@@ -1,0 +1,485 @@
+  text-align: right;
+  display: inline-block;
+  padding: 5px 1px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(179, 65, 65);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+link{
+  background-image:url('https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberibe-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome');
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 950px;
+  background-image: url('assets/paris2.jpg');
+  background-size: 100% 100%;
+  /*filter: blur(3px);*/
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: #161a1d;
+}
+
+header nav p {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: text-shadow .6s ;
+}
+header nav p:hover {
+  text-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+.button {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  background: #000;
+}
+
+.button:hover {background-color: rgb(179, 65, 65)}
+
+.button:active {
+  background-color: rgb(179, 65, 65);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+
+
+
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px ;
+  font-weight: 600 ;
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  color: rgb(255, 0, 0);
+  transition: .4s;
+}
+
+
+.header-content {
+  color: #161a1d;
+  font-weight: bold;
+  max-width: 400px auto ;
+  margin: 150px auto;
+  text-align: center;
+  animation: ease text-move 2s forwards;
+}
+
+
+.header-content h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+}
+
+@keyframes text-move{
+  from {transform:  translateY(0px);
+        opacity: 0;}
+  to {transform:   translateY(-20px);
+      opacity: 1;}
+}
+
+/* PACOTES */
+
+.pacotes {
+  background-color: #161a1d;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.pacotes {
+  background-color: #161a1d;
+  padding: 25px;
+  color: #ffffff;
+}
+
+
+.pacotes .pacotes-cards {
+
+  margin: auto;
+  max-width: 950px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.pacotes .card {
+  margin: 25px;
+  width: 250px;
+  height: 350px;
+  background: rgb(179, 65, 65);
+  border-radius: 24px 0px;
+  box-shadow: 0px 0px 4px -1px ;
+  position: relative;
+  transition: all 1s;
+}
+
+.pacotes .card:hover {
+  transform: scale(1.1);
+}
+
+
+.pacotes .card-image {
+  width: 250px;
+  height: 200px;
+  border-radius: 24px 0 0 0;
+  object-fit: cover;  
+}
+.pacotes .card .card-tag p {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffff;
+}
+
+
+
+
+
+
+
+
+  <header>
+    <nav>
+      <p>IESB Travels</p>
+      <ul>
+        <h1><li><a href="#home">Home</a></li></h1>
+        <h1><li><a href="#pacotes">Pacotes</a></li></h1>
+      </ul>
+    </nav>
+    <div id="home" class="header-content" >
+      <h1>Veneza</h1>
+      <p>Conheça Veneza, e viva aventuras extraodinarias, o embarque está proximo, junte-se a nós nessa experiência</p>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+HEADER CSS
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px ;
+  font-weight: 600 ;
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  color: rgb(255, 0, 0);
+  transition: .4s;
+}
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: #161a1d;
+}
+
+header nav p {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: text-shadow .6s ;
+}
+header nav p:hover {
+  text-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
+.header-content {
+  color: #161a1d;
+  font-weight: bold;
+  max-width: 400px auto ;
+  margin: 150px auto;
+  text-align: center;
+  animation: ease text-move 2s forwards;
+}
+
+
+.header-content h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+}
+
+@keyframes text-move{
+  from {transform:  translateY(0px);
+        opacity: 0;}
+  to {transform:   translateY(-20px);
+      opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+INDEX INDEX INDEX INDEX INDEX INDEX INDEX 
+
+  <div class="header">
+    <div class="inner_header">
+        <div class="logo_container">
+            <h1>IESB<span>Viagens</span></h1>
+        </div>
+            <ul class="navigation">
+              <a><li>Home</li></a>
+              <a><li>Galeria de pacotes</li></a>
+            </ul>
+    </div>
+  </div>
+
+<section id="pacotes" class="pacotes">
+    <h1 class="pacotes-title">Galeria de fotos</h1>
+    <div class="pacotes-cards">
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/paris.jpg" alt="Paris">
+        <div>O pacote inclui:   </div><br><br><br>
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/roma.jpg" alt="Paris">
+        <div>Paris europa viajem maravilhosa</div><br><br><br>
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/tajmahal.jpg" alt="Paris">
+        <div>Paris europa viajem maravilhosa</div><br><br><br>
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/NovaYork.jpg" alt="Paris">
+        <div>Paris europa viajem maravilhosa</div><br><br><br>
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/IlhaDaPascoa.jpg" alt="Paris">
+        <div>Paris europa viajem maravilhosa</div><br><br><br>
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/MonteSaint.jpg" alt="Paris">
+        <div>Paris europa viajem maravilhosa</div><br><br><br>
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/Veneza.jpg" alt="Paris">
+        <div>Paris europa viajem maravilhosa</div><br><br><br>
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/miami.jpg" alt="Miami">
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/berlim.jpg" alt="Berlim">
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/londres1.jpg" alt="Fortaleza">
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content" align="center" >
+        <h2>Londres</h2>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/jeri.jpg" alt="jericoacoara">
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        <h1></h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-tag card-tag-top">
+        </div>
+        <div class="card-tag card-tag-bottom">
+        </div>
+        <img class="card-image" src="assets/canada.png" alt="Canada">
+        <a href="https://www.hurb.com/br/packages/beberibe-passagem-aerea-hospedagem-all-inclusive/1097987?promo_id=df&promo_name=beberi
+        be-pmaio-home&promo_position=1-0&promo_creative=home%2Fhome" class="button" >Saiba mais</a>
+        <div class="card-content">
+        </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+ .navigation
+{
+  float: right;
+  height: 100%;
+}
+
+.navigation a
+{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px;
+}
+.navigation a:last-child
+{
+  padding-right: 0;
+}
+
+.navigation a li
+{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
